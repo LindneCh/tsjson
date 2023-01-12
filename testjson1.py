@@ -18,6 +18,7 @@ with open("accounts.json", "r") as f:
   #lade die Json.Daten aus der Datei
   
   data = json.load(f)
+  #print(data)
   #print(f)
   #print(json.dumps(json.load(f), indent=4))
 for account in data:
